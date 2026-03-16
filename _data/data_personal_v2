@@ -1,0 +1,244 @@
+meta:
+  direction: ltr
+  language: en
+
+basic:
+  name: FOO BAR
+  title: DevOps Engineer
+  avatar:
+    show: false
+    path: /assets/images/profile.png
+
+contact:
+  location: Budapest, Hungary
+  email: example@gmail.com
+  phone: +36 30 123 4567
+  website:
+
+  gender:
+  birthday:
+  nationality:
+  visa:
+  drivinglicense:
+
+  github: example_name
+  linkedin: example_name
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    DevOps Engineer with hands-on experience designing and operating cloud-native infrastructure, container platforms and CI/CD pipelines.
+
+    Experienced in building scalable microservice environments using Kubernetes and Docker, automating infrastructure using Terraform and Ansible, and deploying cloud-native applications in AWS environments.
+
+    Strong focus on infrastructure automation, observability, and system reliability. Passionate about improving deployment processes, system scalability and operational efficiency through modern DevOps practices.
+      
+experience:
+  show: true
+  order: 2
+  title: Experiences
+  items:
+    - company: MobilSign Ltd.
+      link:
+      tags: Full-time
+      date: 2023 - Present
+      role: DevOps Engineer
+      location: Budapest, Hungary
+      description: |
+        Provider of digital signature services, Certification Authority (CA), QTSP and long-term validation solutions for enterprise clients.
+
+        + Designed and maintained containerized infrastructure using Docker, Kubernetes and RedHat OpenShift.
+        + Contributed to migrating legacy services into containerized microservice architectures.
+        + Automated deployment and operational processes using Python and Bash scripting.
+        + Built and managed a highly available multi-node RabbitMQ cluster ensuring redundancy and reliability.
+        + Implemented centralized logging and monitoring pipelines using ZabbicGraylog and Elasticsearch.
+        + Developed internal and client-facing web interfaces using Angular and TypeScript.
+        + Collaborated with development teams to improve CI/CD pipelines and release processes.
+
+project:
+  show: true
+  order: 3
+  title: Projects
+  items:
+
+    - name: Cloud Deployed eCommerce Platform
+      tags: DevOps, AWS, CI/CD
+      date: 2022 - 2023
+      description: |
+        Full-stack cloud application developed during the Codecool DevOps specialization program.
+
+        + Developed backend services using Java and Spring Boot.
+        + Deployed application infrastructure in AWS cloud environment.
+        + Implemented CI/CD pipelines using AWS CodePipeline.
+        + Stored application artifacts and static assets in S3.
+        + Collaborated in Scrum teams delivering features in iterative sprints.
+
+    - name: Kubernetes Microservice Environment
+      tags: Kubernetes, Docker, Helm
+      date: 2023
+      description: |
+        Built a production-like Kubernetes environment for deploying containerized applications.
+
+        + Containerized services using Docker.
+        + Managed deployments using Helm charts.
+        + Configured service discovery, load balancing and rolling updates.
+        + Implemented monitoring stack using Prometheus and Grafana.
+
+    - name: Infrastructure as Code Platform
+      tags: Terraform, AWS
+      date: 2023
+      description: |
+        Designed automated cloud infrastructure using Terraform.
+
+        + Created modular Terraform configurations for reusable infrastructure components.
+        + Provisioned AWS networking, compute and storage resources.
+        + Integrated infrastructure provisioning into CI/CD pipelines.
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+
+  groups:
+
+    - name: Cloud Platforms
+      item:
+        - AWS
+        - AWS EKS
+        - EC2
+        - S3
+        - VPC
+
+    - name: Containerization & Orchestration
+      item:
+        - Docker
+        - Kubernetes
+        - Helm
+        - RedHat OpenShift
+
+    - name: Infrastructure as Code
+      item:
+        - Terraform
+        - Ansible
+
+    - name: CI/CD & Automation
+      item:
+        - Jenkins
+        - GitHub Actions
+        - AWS CodePipeline
+        - CI/CD
+        - Bash
+        - Shell
+        - PowerShell
+
+    - name: Monitoring & Logging
+      item:
+        - Prometheus
+        - Grafana
+        - Elasticsearch
+        - Graylog
+        - Zabbix
+
+    - name: Programming
+      item:
+        - Python
+        - Java
+        - JavaScript
+        - TypeScript
+        - NodeJS
+        - Angular
+
+    - name: Databases & Messaging
+      item:
+        - PostgreSQL
+        - MongoDB
+        - RabbitMQ
+
+    - name: Tools & Methodologies
+      item:
+        - Linux
+        - Git
+        - SVN
+        - Agile
+        - Scrum
+
+education:
+  show: true
+  order: 5
+  title: Education
+  items:
+    - institution: Codecool Code Academy
+      link:
+      date: 2022 - 2023
+      major: Computer Science (DevOps Specialization)
+      degree: Full-Stack Developer Program
+      description: |
+        Intensive programming and DevOps program with focus on cloud infrastructure and modern development practices.
+
+        + Gained deep knowledge of Docker, Kubernetes, Helm Charts and Terraform.
+        + Worked with AWS services including EC2, VPC, EKS, S3, KMS and EBS.
+        + Built and deployed cloud-native applications and CI/CD pipelines.
+        + Collaborated in Scrum teams on real-world projects.
+
+    - institution: University of Physical Education
+      link:
+      date: 2015 - 2019
+      major: Physical Education
+      degree: PE Teacher & Coach
+      description: |
+        Bachelor's degree focusing on sports education, coaching methodology and physical training.
+
+certificate:
+  show: true
+  order: 6
+  title: Certificates
+  items:
+
+    - name: AWS Cloud Practitioner
+      issuer: Amazon Web Services
+      date: 2024
+      description: |
+        Foundational certification covering AWS cloud architecture, services and security principles.
+
+    - name: Kubernetes Fundamentals
+      issuer: Linux Foundation
+      date: 2023
+      description: |
+        Covered Kubernetes architecture, cluster networking, container orchestration and workloads.
+
+publication:
+  show: false
+
+award:
+  show: false
+
+patent:
+  show: false
+
+organization:
+  show: false
+
+language:
+  show: true
+  order: 11
+  title: Languages
+  items:
+    - idiom: Hungarian
+      level: Native
+    - idiom: English
+      level: Professional
+
+interest:
+  show: false
+
+evaluation:
+  show: true
+  order: 13
+  title: Self-evaluation
+  description: |
+    Growth-oriented professional with a strong learning mindset and passion for technology. Constantly exploring new tools, platforms and DevOps methodologies to improve automation, reliability and scalability. Comfortable working in collaborative agile environments and adapting quickly to new technical challenges.
+
+reference:
+  show: false
