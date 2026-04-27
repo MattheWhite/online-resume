@@ -51,6 +51,19 @@ project:
   order: 3
   title: Projects
   items:
+  - name: DevSecOps CI/CD Pipeline (PyGoat Security Testing)
+      tags: DevSecOps, CI/CD, Security, GitHub Actions
+      date: 2025
+      link: https://github.com/MattheWhite/devsecops-project
+      description: |
+        Designed and implemented a DevSecOps pipeline using GitHub Actions to automate security testing and vulnerability analysis on the OWASP PyGoat application.
+        + Built CI/CD workflows in GitHub Actions to automate build, test, and security scanning stages.
+        + Integrated SAST scanning using Bandit to detect common Python security vulnerabilities.
+        + Performed container image security scanning using Docker Scout.
+        + Containerized the application using Docker and supported deployment via Docker Compose.
+        + Worked with a vulnerable OWASP training application (PyGoat) to identify and analyze issues such as XSS and SQL injection.
+        + Troubleshot and resolved dependency and compatibility issues (Docker, Debian packages, GitHub Actions runners).
+        + Applied DevSecOps principles by embedding security checks early in the development lifecycle (shift-left approach).
     - name: Cloud Deployed eCommerce Platform
       tags: DevOps, AWS, CI/CD
       date: 2022 - 2023
