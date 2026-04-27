@@ -44,6 +44,7 @@ experience:
         * Built and maintained a highly available multi-node RabbitMQ cluster.
         * Implemented centralized logging and monitoring solutions to improve system observability using Zabbix, Graylog, and Elasticsearch.
         * Developed internal web interfaces using Angular and TypeScript.
+        * Developed cross-platform mobile applications for iOS and Android using React Native, achieving seamless user experience across devices.
         * Contributed to CI/CD pipeline improvements and deployment workflows in collaboration with development teams.
 
 project:
