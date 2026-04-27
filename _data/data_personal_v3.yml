@@ -1,0 +1,188 @@
+meta:
+  direction: ltr
+  language: en
+
+basic:
+  name: Matyas Feher
+  title: DevOps Engineer
+  avatar:
+    show: false
+    path: /assets/images/profile.png
+
+contact:
+  location: Budapest, Hungary
+  email: "Available upon request"
+  phone: "Available upon request"
+  website: ""
+  github: https://github.com/MattheWhite
+  linkedin: https://linkedin.com/in/matyas-feher
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    DevOps Engineer with hands-on experience designing and operating cloud-native infrastructure, container platforms, and CI/CD pipelines.
+    Experienced in building scalable microservice environments using Kubernetes and Docker, automating infrastructure using Terraform and Ansible, and deploying applications in AWS environments.
+    Strong focus on automation, reliability, and continuous improvement, with ongoing learning in MLOps, Go, and advanced cloud-native practices.
+
+experience:
+  show: true
+  order: 2
+  title: Experience
+  items:
+    - company: MobilSign Ltd.
+      tags: Full-time
+      date: 2023 - Present
+      role: DevOps Engineer
+      location: Budapest, Hungary
+      description: |
+        Provider of digital signature services, Certification Authority (CA), and enterprise-grade trust solutions.
+        * Designed and maintained containerized infrastructure using Docker, Kubernetes, and RedHat OpenShift.
+        * Contributed to migrating legacy services into containerized microservice architectures.
+        * Automated operational tasks using Python and Bash scripting.
+        * Built and maintained a highly available multi-node RabbitMQ cluster.
+        * Implemented centralized logging and monitoring using Zabbix, Graylog, and Elasticsearch.
+        * Developed internal web interfaces using Angular and TypeScript.
+        * Collaborated with development teams to improve CI/CD pipelines and release processes.
+
+project:
+  show: true
+  order: 3
+  title: Projects
+  items:
+    - name: Cloud Deployed eCommerce Platform
+      tags: DevOps, AWS, CI/CD
+      date: 2022 - 2023
+      description: |
+        Full-stack cloud application developed during the Codecool DevOps specialization program.
+        * Developed backend services using Java and Spring Boot.
+        * Deployed infrastructure in AWS using EC2, S3, and related services.
+        * Implemented CI/CD pipelines using AWS CodePipeline.
+        * Stored application assets in S3.
+        * Worked in Agile Scrum teams delivering iterative features.
+    - name: Kubernetes Microservice Environment
+      tags: Kubernetes, Docker, Helm
+      date: 2023
+      description: |
+        Built a production-like Kubernetes environment for deploying containerized applications.
+        * Containerized services using Docker.
+        * Managed deployments with Helm charts.
+        * Configured service discovery, load balancing, and rolling updates.
+        * Implemented monitoring using Prometheus and Grafana.
+    - name: Infrastructure as Code Platform
+      tags: Terraform, AWS
+      date: 2023
+      description: |
+        Designed automated cloud infrastructure using Terraform.
+        * Created reusable Terraform modules.
+        * Provisioned AWS networking, compute, and storage resources.
+        * Integrated infrastructure provisioning into CI/CD workflows.
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+  groups:
+    - name: Cloud Platforms
+      items:
+        - AWS (EC2, S3, VPC, EKS)
+    - name: Containerization & Orchestration
+      items:
+        - Docker
+        - Kubernetes
+        - Helm
+        - RedHat OpenShift
+    - name: Infrastructure as Code
+      items:
+        - Terraform
+        - Ansible
+    - name: CI/CD & Automation
+      items:
+        - Jenkins
+        - GitHub Actions
+        - AWS CodePipeline
+        - Bash
+        - Shell
+        - PowerShell
+        - Python
+    - name: Monitoring & Logging
+      items:
+        - Prometheus
+        - Grafana
+        - Elasticsearch
+        - Graylog
+        - Zabbix
+    - name: Programming
+      items:
+        - Python
+        - Java
+        - JavaScript
+        - TypeScript
+        - NodeJS
+        - Angular
+    - name: Databases & Messaging
+      items:
+        - PostgreSQL
+        - MongoDB
+        - RabbitMQ
+    - name: Tools & Methodologies
+      items:
+        - Linux
+        - Git
+        - Agile
+        - Scrum
+
+education:
+  show: true
+  order: 5
+  title: Education
+  items:
+    - institution: Codecool Code Academy
+      date: 2022 - 2023
+      major: Computer Science (DevOps Specialization)
+      degree: Full-Stack Developer Program
+      description: |
+        Intensive program focused on cloud infrastructure, CI/CD, and modern DevOps practices.
+        * Worked extensively with Docker, Kubernetes, Helm, and Terraform.
+        * Gained hands-on experience with AWS services (EC2, VPC, S3, EKS).
+        * Built and deployed cloud-native applications in team environments.
+    - institution: University of Physical Education
+      date: 2015 - 2019
+      degree: PE Teacher & Coach
+
+certificate:
+  show: true
+  order: 6
+  title: Courses & Training
+  items:
+    - name: Docker Mastery: with Kubernetes + Swarm
+      issuer: Udemy (Bret Fisher)
+      date: 2024
+    - name: React Native - The Practical Guide
+      issuer: Udemy (Academind / Maximilian Schwarzmüller)
+      date: 2023
+    - name: Angular - The Complete Guide
+      issuer: Udemy (Maximilian Schwarzmüller)
+      date: 2023
+    - name: Cryptography: A Hands-on Approach
+      issuer: Udemy (Wenliang Du)
+      date: 2023
+
+language:
+  show: true
+  order: 7
+  title: Languages
+  items:
+    - idiom: Hungarian
+      level: Native
+    - idiom: English
+      level: Professional Working Proficiency
+
+evaluation:
+  show: true
+  order: 8
+  title: Professional Focus
+  description: |
+    Currently expanding knowledge in MLOps, Go (gRPC, Protocol Buffers), and advanced Terraform and Kubernetes patterns.
+    Actively following structured courses and building practical skills in cloud-native, automation, and AI-driven DevOps workflows.
