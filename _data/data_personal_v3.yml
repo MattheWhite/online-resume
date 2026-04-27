@@ -165,7 +165,7 @@ certificate:
     - name: Angular - The Complete Guide
       issuer: Udemy (Maximilian Schwarzmüller)
       date: 2023
-    - name: Cryptography: A Hands-on Approach
+    - name: "Cryptography: A Hands-on Approach"
       issuer: Udemy (Wenliang Du)
       date: 2023
 
