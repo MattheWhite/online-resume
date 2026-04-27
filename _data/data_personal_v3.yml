@@ -5,7 +5,6 @@ meta:
 basic:
   name: Matyas Feher
   title: DevOps Engineer
-  website: "https://matthewhite.github.io/online-resume/"
   avatar:
     show: false
     path: /assets/images/profile.png
@@ -14,7 +13,7 @@ contact:
   location: Budapest, Hungary
   email: "Contact via LinkedIn"
   phone: "Available upon request"
-  website: ""
+  website: "https://matthewhite.github.io/online-resume/"
   github: "https://github.com/MattheWhite"
   linkedin: "https://linkedin.com/in/matyas-feher"
 
