@@ -5,7 +5,7 @@ meta:
 basic:
   name: Matyas Feher
   title: DevOps Engineer
-  Online CV: "https://matthewhite.github.io/online-resume/"
+  website: "https://matthewhite.github.io/online-resume/"
   avatar:
     show: false
     path: /assets/images/profile.png
