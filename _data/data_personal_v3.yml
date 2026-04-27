@@ -107,7 +107,11 @@ skill:
   groups:
     - name: Cloud Platforms
       item:
-        - AWS (EC2, S3, VPC, EKS)
+        - AWS
+        - AWS EKS
+        - EC2
+        - S3
+        - VPC
 
     - name: Containerization & Orchestration
       item:
