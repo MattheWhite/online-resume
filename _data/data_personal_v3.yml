@@ -156,7 +156,7 @@ certificate:
   order: 6
   title: Courses & Training
   items:
-    - name: Docker Mastery: with Kubernetes + Swarm
+    - name: "Docker Mastery: with Kubernetes + Swarm"
       issuer: Udemy (Bret Fisher)
       date: 2024
     - name: React Native - The Practical Guide
