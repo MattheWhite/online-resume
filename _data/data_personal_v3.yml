@@ -64,6 +64,28 @@ project:
         + Worked with a vulnerable OWASP training application (PyGoat) to identify and analyze issues such as XSS and SQL injection.
         + Troubleshot and resolved dependency and compatibility issues (Docker, Debian packages, GitHub Actions runners).
         + Applied DevSecOps principles by embedding security checks early in the development lifecycle (shift-left approach).
+    - name: Kubernetes Microservice & RBAC Environment
+      tags: Kubernetes, Docker, Helm, AWS EKS
+      date: 2023
+      link: "https://github.com/MattheWhite/k8s-rbac"
+      description: |
+        Hands-on DevOps project completed during Codecool training, focused on building and managing a Kubernetes-based microservice environment.
+        * Deployed and managed containerized applications using Docker and Kubernetes (EKS and Minikube).
+        * Configured application deployments using Helm charts and Kubernetes manifests.
+        * Implemented service discovery, load balancing, and rolling updates within the cluster.
+        * Designed and tested Role-Based Access Control (RBAC) using ServiceAccounts, Roles, and RoleBindings.
+        * Practiced cluster security by restricting resource access and validating permission boundaries.
+        * Integrated monitoring stack using Prometheus and Grafana.
+    - name: Infrastructure as Code Platform (Codecool Project)
+      tags: Terraform, AWS, Infrastructure as Code
+      date: 2023
+      description: |
+        DevOps-focused infrastructure project completed during Codecool, centered on automating cloud resource provisioning.
+        * Designed and implemented infrastructure using Terraform with modular and reusable configurations.
+        * Provisioned AWS resources including networking (VPC), compute (EC2), and storage services.
+        * Applied Infrastructure as Code best practices for consistency and repeatability.
+        * Integrated infrastructure provisioning into CI/CD workflows.
+        * Gained hands-on experience with cloud architecture design and environment automation.
     - name: Cloud Deployed eCommerce Platform
       tags: DevOps, AWS, CI/CD
       date: 2022 - 2023
@@ -74,23 +96,6 @@ project:
         * Implemented CI/CD pipelines using AWS CodePipeline.
         * Stored application assets in S3.
         * Worked in Agile Scrum teams delivering iterative features.
-    - name: Kubernetes Microservice Environment
-      tags: Kubernetes, Docker, Helm
-      date: 2023
-      description: |
-        Built a production-like Kubernetes environment for deploying containerized applications.
-        * Containerized services using Docker.
-        * Managed deployments with Helm charts.
-        * Configured service discovery, load balancing, and rolling updates.
-        * Implemented monitoring using Prometheus and Grafana.
-    - name: Infrastructure as Code Platform
-      tags: Terraform, AWS
-      date: 2023
-      description: |
-        Designed automated cloud infrastructure using Terraform.
-        * Created reusable Terraform modules.
-        * Provisioned AWS networking, compute, and storage resources.
-        * Integrated infrastructure provisioning into CI/CD workflows.
 
 skill:
   show: true
