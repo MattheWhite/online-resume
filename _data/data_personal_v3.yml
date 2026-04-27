@@ -106,23 +106,23 @@ skill:
   title: Skills
   groups:
     - name: Cloud Platforms
-      items:
+      item:
         - AWS (EC2, S3, VPC, EKS)
 
     - name: Containerization & Orchestration
-      items:
+      item:
         - Docker
         - Kubernetes
         - Helm
         - RedHat OpenShift
 
     - name: Infrastructure as Code
-      items:
+      item:
         - Terraform
         - Ansible
 
     - name: CI/CD & Automation
-      items:
+      item:
         - Jenkins
         - GitHub Actions
         - AWS CodePipeline
@@ -132,7 +132,7 @@ skill:
         - Python
 
     - name: Monitoring & Logging
-      items:
+      item:
         - Prometheus
         - Grafana
         - Elasticsearch
@@ -140,22 +140,23 @@ skill:
         - Zabbix
 
     - name: Programming
-      items:
+      item:
         - Python
         - Java
         - JavaScript
         - TypeScript
         - NodeJS
         - Angular
+        - React Native
 
     - name: Databases & Messaging
-      items:
+      item:
         - PostgreSQL
         - MongoDB
         - RabbitMQ
 
     - name: Tools & Methodologies
-      items:
+      item:
         - Linux
         - Git
         - Agile
