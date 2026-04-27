@@ -11,11 +11,11 @@ basic:
 
 contact:
   location: Budapest, Hungary
-  email: "Available upon request"
+  email: "Contact via LinkedIn"
   phone: "Available upon request"
   website: ""
-  github: https://github.com/MattheWhite
-  linkedin: https://linkedin.com/in/matyas-feher
+  github: "https://github.com/MattheWhite"
+  linkedin: "https://linkedin.com/in/matyas-feher"
 
 profile:
   show: true
