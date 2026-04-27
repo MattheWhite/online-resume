@@ -51,7 +51,7 @@ project:
   order: 3
   title: Projects
   items:
-  - name: DevSecOps CI/CD Pipeline (PyGoat Security Testing)
+  - name: "DevSecOps CI/CD Pipeline (PyGoat Security Testing)"
       tags: DevSecOps, CI/CD, Security, GitHub Actions
       date: 2025
       link: "https://github.com/MattheWhite/devsecops-project"
@@ -64,7 +64,7 @@ project:
         + Worked with a vulnerable OWASP training application (PyGoat) to identify and analyze issues such as XSS and SQL injection.
         + Troubleshot and resolved dependency and compatibility issues (Docker, Debian packages, GitHub Actions runners).
         + Applied DevSecOps principles by embedding security checks early in the development lifecycle (shift-left approach).
-    - name: Kubernetes Microservice & RBAC Environment
+    - name: "Kubernetes Microservice & RBAC Environment"
       tags: Kubernetes, Docker, Helm, AWS EKS
       date: 2023
       link: "https://github.com/MattheWhite/k8s-rbac"
@@ -76,7 +76,7 @@ project:
         * Designed and tested Role-Based Access Control (RBAC) using ServiceAccounts, Roles, and RoleBindings.
         * Practiced cluster security by restricting resource access and validating permission boundaries.
         * Integrated monitoring stack using Prometheus and Grafana.
-    - name: Infrastructure as Code Platform (Codecool Project)
+    - name: "Infrastructure as Code Platform (Codecool Project)"
       tags: Terraform, AWS, Infrastructure as Code
       date: 2023
       description: |
