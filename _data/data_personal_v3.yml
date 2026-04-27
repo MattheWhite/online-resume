@@ -40,30 +40,31 @@ experience:
         Provider of digital signature services, Certification Authority (CA), and enterprise-grade trust solutions.
         * Designed and maintained containerized infrastructure using Docker, Kubernetes, and RedHat OpenShift.
         * Contributed to migrating legacy services into containerized microservice architectures.
-        * Automated operational tasks using Python and Bash scripting.
+        * Automated operational and deployment-related tasks using Python and Bash scripting.
         * Built and maintained a highly available multi-node RabbitMQ cluster.
-        * Implemented centralized logging and monitoring using Zabbix, Graylog, and Elasticsearch.
+        * Implemented centralized logging and monitoring solutions to improve system observability using Zabbix, Graylog, and Elasticsearch.
         * Developed internal web interfaces using Angular and TypeScript.
-        * Collaborated with development teams to improve CI/CD pipelines and release processes.
+        * Contributed to CI/CD pipeline improvements and deployment workflows in collaboration with development teams.
 
 project:
   show: true
   order: 3
   title: Projects
   items:
-  - name: "DevSecOps CI/CD Pipeline (PyGoat Security Testing)"
+    - name: "DevSecOps CI/CD Pipeline (PyGoat Security Testing)"
       tags: DevSecOps, CI/CD, Security, GitHub Actions
       date: 2025
       link: "https://github.com/MattheWhite/devsecops-project"
       description: |
         Designed and implemented a DevSecOps pipeline using GitHub Actions to automate security testing and vulnerability analysis on the OWASP PyGoat application.
-        + Built CI/CD workflows in GitHub Actions to automate build, test, and security scanning stages.
-        + Integrated SAST scanning using Bandit to detect common Python security vulnerabilities.
-        + Performed container image security scanning using Docker Scout.
-        + Containerized the application using Docker and supported deployment via Docker Compose.
-        + Worked with a vulnerable OWASP training application (PyGoat) to identify and analyze issues such as XSS and SQL injection.
-        + Troubleshot and resolved dependency and compatibility issues (Docker, Debian packages, GitHub Actions runners).
-        + Applied DevSecOps principles by embedding security checks early in the development lifecycle (shift-left approach).
+        * Built CI/CD workflows in GitHub Actions to automate build, test, and security scanning stages (SAST, container scanning).
+        * Integrated SAST scanning using Bandit to detect common Python security vulnerabilities.
+        * Performed container image security scanning using Docker Scout.
+        * Containerized the application using Docker and supported deployment via Docker Compose.
+        * Worked with a vulnerable OWASP training application (PyGoat) to identify and analyze issues such as XSS and SQL injection.
+        * Troubleshot and resolved dependency and compatibility issues (Docker, Debian packages, GitHub Actions runners).
+        * Applied DevSecOps principles by embedding security checks early in the development lifecycle (shift-left approach).
+
     - name: "Kubernetes Microservice & RBAC Environment"
       tags: Kubernetes, Docker, Helm, AWS EKS
       date: 2023
@@ -76,6 +77,7 @@ project:
         * Designed and tested Role-Based Access Control (RBAC) using ServiceAccounts, Roles, and RoleBindings.
         * Practiced cluster security by restricting resource access and validating permission boundaries.
         * Integrated monitoring stack using Prometheus and Grafana.
+
     - name: "Infrastructure as Code Platform (Codecool Project)"
       tags: Terraform, AWS, Infrastructure as Code
       date: 2023
@@ -86,6 +88,7 @@ project:
         * Applied Infrastructure as Code best practices for consistency and repeatability.
         * Integrated infrastructure provisioning into CI/CD workflows.
         * Gained hands-on experience with cloud architecture design and environment automation.
+
     - name: Cloud Deployed eCommerce Platform
       tags: DevOps, AWS, CI/CD
       date: 2022 - 2023
@@ -105,16 +108,19 @@ skill:
     - name: Cloud Platforms
       items:
         - AWS (EC2, S3, VPC, EKS)
+
     - name: Containerization & Orchestration
       items:
         - Docker
         - Kubernetes
         - Helm
         - RedHat OpenShift
+
     - name: Infrastructure as Code
       items:
         - Terraform
         - Ansible
+
     - name: CI/CD & Automation
       items:
         - Jenkins
@@ -124,6 +130,7 @@ skill:
         - Shell
         - PowerShell
         - Python
+
     - name: Monitoring & Logging
       items:
         - Prometheus
@@ -131,6 +138,7 @@ skill:
         - Elasticsearch
         - Graylog
         - Zabbix
+
     - name: Programming
       items:
         - Python
@@ -139,11 +147,13 @@ skill:
         - TypeScript
         - NodeJS
         - Angular
+
     - name: Databases & Messaging
       items:
         - PostgreSQL
         - MongoDB
         - RabbitMQ
+
     - name: Tools & Methodologies
       items:
         - Linux
@@ -165,6 +175,7 @@ education:
         * Worked extensively with Docker, Kubernetes, Helm, and Terraform.
         * Gained hands-on experience with AWS services (EC2, VPC, S3, EKS).
         * Built and deployed cloud-native applications in team environments.
+
     - institution: University of Physical Education
       date: 2015 - 2019
       degree: PE Teacher & Coach
@@ -177,12 +188,15 @@ certificate:
     - name: "Docker Mastery: with Kubernetes + Swarm"
       issuer: Udemy (Bret Fisher)
       date: 2024
+
     - name: React Native - The Practical Guide
       issuer: Udemy (Academind / Maximilian Schwarzmüller)
       date: 2023
+
     - name: Angular - The Complete Guide
       issuer: Udemy (Maximilian Schwarzmüller)
       date: 2023
+
     - name: "Cryptography: A Hands-on Approach"
       issuer: Udemy (Wenliang Du)
       date: 2023
@@ -194,6 +208,7 @@ language:
   items:
     - idiom: Hungarian
       level: Native
+
     - idiom: English
       level: Professional Working Proficiency
 
