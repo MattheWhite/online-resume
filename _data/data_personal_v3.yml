@@ -14,8 +14,8 @@ contact:
   email: "Contact via LinkedIn"
   phone: "Available upon request"
   website: matthewhite.github.io/online-resume
-  github: github.com/MattheWhite
-  linkedin: linkedin.com/in/matyas-feher
+  github: MattheWhite
+  linkedin: matyas-feher
 
 profile:
   show: true
