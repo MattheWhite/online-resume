@@ -13,9 +13,9 @@ contact:
   location: Budapest, Hungary
   email: "Contact via LinkedIn"
   phone: "Available upon request"
-  website: "https://matthewhite.github.io/online-resume/"
-  github: "https://github.com/MattheWhite"
-  linkedin: "https://linkedin.com/in/matyas-feher"
+  website: matthewhite.github.io/online-resume
+  github: github.com/MattheWhite
+  linkedin: linkedin.com/in/matyas-feher
 
 profile:
   show: true
