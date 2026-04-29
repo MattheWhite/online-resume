@@ -32,6 +32,61 @@ analytics:
   google:                   # google
   cloudflare:               # cloudflare
   umami:                    # umami (Replace it with your own)
-    script: https://u.tarrex.com/u.js
-    website_id: af636e2d-31ae-46f1-9071-82b1745143a9
-    domains: tarrex.github.io,tarrex.com
+    script: # https://u.tarrex.com/u.js -> not my umami analytics script
+    website_id: # af636e2d-31ae-46f1-9071-82b1745143a9 -> not my generated website id
+    domains: # tarrex.github.io,tarrex.com -> not mine
+  
+# To get real time analytics i should do these steps:
+# # — Vercel and Railway are free cloud platforms where you can host web apps and databases. 
+# You need to:
+# Register on both (free)
+# Deploy Umami using your GitHub account
+# Get your own analytics dashboard 
+
+# 🔧 Step-by-Step: Deploy Umami on Vercel (Easiest)
+# 1. Fork Umami
+# Go to: https://github.com/umami-software/umami
+# Click Fork → create a copy in your GitHub account 
+
+# 2. Sign Up
+# Vercel.com → Sign up with GitHub
+# Neon.tech → Free PostgreSQL database (or use Vercel’s built-in Postgres) 
+
+# 3. Create Database (Neon)
+# Log in to Neon → Click New Project
+# Name it umami-db → Copy the Connection String (looks like postgres://user:pass@host:port/db) 
+
+# 4. Deploy to Vercel
+# Go to Vercel Dashboard → Add New Project
+# Import your forked Umami repo
+# Set:
+# Framework: Next.js
+# Environment Variables:
+#   DATABASE_URL = your Neon connection string
+#   HASH_SALT = any random string (e.g. mysecretsalt123)
+#   - Click Deploy
+
+# 5. Access Your Dashboard
+# After deploy, Vercel gives a URL like: your-umami.vercel.app
+# Open it → Log in:
+# Username: admin
+# Password: umami
+# Change password immediately
+
+# 6. Add Your Resume Site
+# Click Add Website
+# Name: My Resume
+# Domain: yourusername.github.io
+# Copy the tracking script (has your website_id) 
+
+# 7. Update Your Resume
+# In your _config.yml, replace:
+#     umami:
+#       script: https://u.tarrex.com/u.js
+#       website_id: af636e2d-...
+#       domains: tarrex.github.io
+# With:
+#     umami:
+#       script: https://your-umami.vercel.app/script.js
+#       website_id: YOUR_NEW_UUID
+#       domains: yourusername.github.io
