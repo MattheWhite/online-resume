@@ -79,7 +79,7 @@ project:
         * Practiced cluster security by restricting resource access and validating permission boundaries.
         * Integrated monitoring stack using Prometheus and Grafana.
 
-    - name: "Infrastructure as Code Platform (Codecool Project)"
+    - name: Infrastructure as Code Platform
       tags: Terraform, AWS, Infrastructure as Code
       date: 2023
       description: |
