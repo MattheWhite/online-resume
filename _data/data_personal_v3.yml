@@ -118,7 +118,7 @@ skill:
       item:
         - Docker
         - Kubernetes
-        - Helm
+        - Helm (Helm Charts)
         - RedHat OpenShift
 
     - name: Infrastructure as Code
@@ -164,6 +164,7 @@ skill:
       item:
         - Linux
         - Git
+        - SVN
         - Agile
         - Scrum
 
