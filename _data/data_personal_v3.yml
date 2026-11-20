@@ -128,8 +128,9 @@ skill:
 
     - name: CI/CD & Automation
       item:
-        - Jenkins
         - GitHub Actions
+        - TeamCity
+        - Jenkins
         - AWS CodePipeline
         - Bash
         - Shell
