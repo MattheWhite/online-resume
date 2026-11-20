@@ -193,11 +193,11 @@ certificate:
   order: 6
   title: Courses & Training
   items:
-    - name: "AWS Certified Solutions Architect Associate Certification SAA-C03"
+    - name: "AWS Certified Solutions Architect Associate SAA-C03"
       issuer: Udemy (Stéphane Maarek)
       date: 2026
 
-    - name: "CKA Certification Course – Certified Kubernetes Administrator"
+    - name: "CKA – Certified Kubernetes Administrator"
       issuer: Udemy (Mumshad Mannambeth, KodeKloud Training)
       date: 2026
 
